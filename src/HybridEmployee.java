@@ -13,7 +13,10 @@ public class HybridEmployee extends Employee{
     public void setDaysAtHome(int daHome) {daysAtHome = daHome;}
     public void setSalaryPerHour(double hrSal) {salaryPerHour = hrSal;}
     public void setWifiSpeed(int wifi) {wifiSpeed = wifi;}
-
+    public void displayHybridSalary(){
+        super.displaySalary();
+        System.out.println("and they get to work at home.");
+    }
 
 
 

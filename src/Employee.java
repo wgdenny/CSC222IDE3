@@ -18,5 +18,10 @@ public class Employee
    {
       salary = sal;
    }
+   public void displaySalary(){
+      System.out.println("The salary of this employee is " + getSalary());
+
+
+   }
 }
 
